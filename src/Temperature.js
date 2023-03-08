@@ -1,6 +1,7 @@
 import React from "react"
 
 import "./Temperature.css"
+import rain from "./rain.png"
 
 export default function Temperature() {
     let weatherData = {
@@ -9,7 +10,7 @@ export default function Temperature() {
     return (
         <div className="Temperature">
             <div className="grid">
-                {/* <img src={} alt="#" /> */}
+                <img src={rain} alt="#" />
                 <div className="grid-temp-unit">
                     <h2>{weatherData.temperature}</h2>
                     <span>
