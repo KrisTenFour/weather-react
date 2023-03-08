@@ -11,7 +11,7 @@ export default function Temperature() {
                 <div className="grid-temp-unit">
                     <h2>{weatherData.temperature}</h2>
                     <span>
-                        <button>°C</button> | <button href="#">°F</button>
+                        <button>°C</button> | <button>°F</button>
                     </span>
                 </div>
             </div>

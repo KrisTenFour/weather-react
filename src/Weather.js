@@ -1,6 +1,7 @@
 import React from "react"
 import Temperature from "./Temperature"
-import City from "./City"
+
+import "./Weather.css"
 
 export default function Weather() {
     return (
@@ -9,7 +10,11 @@ export default function Weather() {
                 <input type="text" placeholder="Enter city..." />
                 <input type="submit" value="Search" className="button" />
             </form>
-            <City />
+            <div className="City">
+                <div>
+                    <h1>London</h1>
+                </div>
+            </div>
             <Temperature />
         </div>
     );
