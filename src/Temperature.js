@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./Temperature.css"
+
 export default function Temperature() {
     let weatherData = {
         temperature: 5
@@ -14,11 +16,6 @@ export default function Temperature() {
                         <button>°C</button> | <button>°F</button>
                     </span>
                 </div>
-            </div>
-            <div className="Card">
-                <div className="description">{weatherData.description}</div>
-                <div className="humidity">Humidity: {weatherData.humidity}%</div>
-                <div className="wind">Wind: {weatherData.wind}km/h</div>
             </div>
         </div>
     );
