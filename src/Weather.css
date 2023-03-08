@@ -16,3 +16,14 @@
     color: rgba(0, 0, 0, 0.69);
     font-size: 45px;
 }
+
+.Card {
+    width: 15%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 0.1mm solid darkgrey;
+    border-radius: 1mm;
+    color: rgba(0, 0, 0, 0.677);
+}

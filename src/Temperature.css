@@ -1,0 +1,28 @@
+.Temperature h2 {
+    margin: 0;
+    font-size: 85px;
+}
+
+.Temperature .grid-temp-unit {
+    display: flex;
+    float: left;
+}
+
+.Temperature span {
+    margin-top: 16px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.Temperature .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 220px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+.Temperature img {
+    width: 100%;
+}
