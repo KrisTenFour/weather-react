@@ -1,6 +1,7 @@
 .App {
   width: 800px;
   margin: 0 auto;
+  margin-top: 10px;
   border: 0.5mm solid lightgrey;
   border-radius: 1.5mm;
   text-align: center;
