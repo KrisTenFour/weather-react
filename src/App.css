@@ -2,13 +2,9 @@
   width: 800px;
   margin: 0 auto;
   margin-top: 10px;
-  border: 0.5mm solid lightgrey;
-  border-radius: 1.5mm;
   text-align: center;
 }
 
-.App .last-updated {
-  display: flex;
-  justify-content: flex-end;
+.App .coded-by {
   font-size: 14px;
 }

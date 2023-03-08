@@ -28,7 +28,11 @@ export default function Weather() {
                 <div className="humidity">Humidity: {weatherData.humidity}%</div>
                 <div className="wind">Wind: {weatherData.wind}km/h</div>
             </div>
-            <div className="last-updated">last updated: {weatherData.updated}</div>
+            <div className="Footer">
+                <div className="last-updated">
+                    last updated: {weatherData.updated}
+                </div>
+            </div>
         </div>
     );
 }
